@@ -78,7 +78,9 @@ export default function App() {
 
 
   return (
+    
     <div className='calculator'>
+     
 
       <div className="topContainer">
         <div className="time">
@@ -123,6 +125,9 @@ export default function App() {
         <p className='button equal'>=</p>
       </div>
     </div>
+    
+  
+    
 
   )
 }
