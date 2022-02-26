@@ -4,7 +4,7 @@ export default function App() {
   let [value, setvalue]   =  useState(0)
   let [time,settime]        =  useState(null)
 
-  useEffect(()=>{},[value,time])
+  // useEffect(()=>{},[value,time])
 
   function init(event)
   {
@@ -73,7 +73,7 @@ export default function App() {
   
   }
   setInterval(updateTime, 10000);
-  useEffect(()=>{updateTime();})
+  useEffect(()=>{updateTime()})
 
 
 
@@ -105,24 +105,24 @@ export default function App() {
 
       <div className='buttonsContainer' onClick={(e)=>init(e)}>
         <div className='button grey allclear'>AC</div>
-        <p className='button grey clear'>C</p>
-        <p className='button grey operator'>%</p>
-        <p className='button operator'>/</p>
-        <p className='button number'>7</p>
-        <p className='button number'>8</p>
-        <p className='button number'>9</p>
-        <p className='button operator'>*</p>
-        <p className='button number'>4</p>
-        <p className='button number'>5</p>
-        <p className='button number'>6</p>
-        <p className='button operator'>-</p>
-        <p className='button number'>1</p>
-        <p className='button number'>2</p>
-        <p className='button number'>3</p>
-        <p className='button operator'>+</p>
-        <p className='button number shape'>0</p>
-        <p className='button operator'>.</p>
-        <p className='button equal'>=</p>
+        <div className='button grey clear'>C</div>
+        <div className='button grey operator'>%</div>
+        <div className='button operator'>/</div>
+        <div className='button number'>7</div>
+        <div className='button number'>8</div>
+        <div className='button number'>9</div>
+        <div className='button operator'>*</div>
+        <div className='button number'>4</div>
+        <div className='button number'>5</div>
+        <div className='button number'>6</div>
+        <div className='button operator'>-</div>
+        <div className='button number'>1</div>
+        <div className='button number'>2</div>
+        <div className='button number'>3</div>
+        <div className='button operator'>+</div>
+        <div className='button number shape'>0</div>
+        <div className='button operator'>.</div>
+        <div className='button equal'>=</div>
       </div>
     </div>
     
