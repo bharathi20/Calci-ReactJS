@@ -118,7 +118,7 @@ export default function App() {
         <p className='button number'>3</p>
         <p className='button operator'>+</p>
         <p className='button number shape'>0</p>
-        <p className='button'>.</p>
+        <p className='button operator'>.</p>
         <p className='button equal'>=</p>
       </div>
     </div>
