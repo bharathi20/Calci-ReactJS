@@ -103,7 +103,7 @@ export default function App() {
         <p>{value}</p>
       </div>
 
-      <div className='buttonsContainer' onClick={(e)=>init(e)}>
+      <div className='buttonsContainer' onClick={e=>init(e)}>
         <div className='button grey allclear'>AC</div>
         <div className='button grey clear'>C</div>
         <div className='button grey operator'>%</div>
