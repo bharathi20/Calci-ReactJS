@@ -54,6 +54,7 @@ export default function App() {
     }
 
     if(target.classList.contains('clear')){
+      console.log("clear")
       if(value.length > 0)
       {
         value=value.slice(0,-1)

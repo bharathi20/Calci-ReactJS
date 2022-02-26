@@ -37,10 +37,10 @@ body{
     border-radius: 28px;
 }
 .value{
-    margin:20px;
+    /* margin:20px; */
     text-align: right;
-    padding:10px;
-    height: 109px;
+    padding-right:20px; 
+    height: 40px;
     top: 64px;
     right: 8px;
     font-size: 49px;
@@ -51,7 +51,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4 , 1fr);
-    margin:10px;
+    margin:100px 10px 0 10px;
     height: 10px;
     cursor: pointer;
   
