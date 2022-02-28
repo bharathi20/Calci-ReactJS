@@ -5,14 +5,57 @@
 }
 body{
     /* color:white; */
-    height:100vh;
+    /* height:100vh; */
     background-image: linear-gradient(to bottom right, rgb(29, 198, 204),rgb(145, 44, 240));
    
 }
 
+
 .main{
   display: flex;
   align-items: center;
+}
+
+.leftside{
+  min-width: 50%;
+  max-width: 50%;
+  padding:20px 10vh;
+  align-content: center;
+  justify-content: center;
+
+}
+.rightside{
+  min-width: 50%;
+  padding:20px 1vh 20px 1vh;
+  align-content: center;
+  justify-content: center;
+
+}
+
+
+.heading{
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  color: aliceblue;
+  gap: 10px;
+ 
+}
+
+.subHeading{
+  font-size: 30px;
+  color: rgb(228, 226, 225);
+}
+
+.content{
+  font-size:20px;
+  color: rgb(7, 7, 7);
+}
+
+.tech{
+  color: rgb(216, 213, 219);
+  font-weight: 500;
+  margin-top: 20px;
 }
 
 .calculator{
@@ -21,8 +64,6 @@ body{
     height: 616px;
     margin: 10px;
     border-radius: 30px;
- 
-
 }
 
 .topContainer{
@@ -96,23 +137,58 @@ body{
      grid-column: 1 /3;
  }
 
-.sidePara{
-  color:white;
-  font-size: 50px;
-  margin: 0px 10px;
-  text-align: center;
-}
+
+
  @media  screen and (max-width:768px) {
-   body{
+
+  .main{
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+    /* margin-top: 56px; */
+  }
+   /* body{
      display: flex;
      justify-content: center;
      align-items: center;
+   } */
+
+   .leftside{
+    min-width: 90%;
+     padding: 20px 5vh;
    }
 
-  .main{
+
+   .heading{
     display: flex;
     flex-direction: column;
+    
   }
+
+  .h11, .Typewriter__wrapper{
+  font-size: 30px;
+  width: 100%;
+  min-width: 50%;
+  text-align:start;
+  margin: 0;
+  padding: 0;
+  }
+
+
+
+  .Typewriter{
+    text-align: start;
+    margin: 0;
+  
+    padding: 0 0 0 20px;
+  }
+
+ 
+
+  .subHeading{
+    font-size: 25px;
+  }
+ 
   .calculator{
     background-color: black;
     width : 330px;
@@ -134,10 +210,9 @@ body{
     font-size: 12px;
   }
 
-  .sidePara{
-    font-size: 30px;
-  }
+  /* .leftside{
+    margin-top: 75px;
+  } */
 
- 
-   
- }
+
+}
