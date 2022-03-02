@@ -154,7 +154,10 @@ body{
    } */
 
    .leftside{
-    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 90vw;
      padding: 20px 5vh;
    }
 
