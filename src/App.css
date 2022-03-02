@@ -2,12 +2,17 @@
 *{
     margin:0;
     padding:0;
+    
 }
-body{
-    /* color:white; */
-    /* height:100vh; */
-    background-image: linear-gradient(to bottom right, rgb(29, 198, 204),rgb(145, 44, 240));
+html{
+  height: 100%;
    
+    background-image: linear-gradient(to bottom right, rgb(29, 198, 204),rgb(145, 44, 240)); 
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+
 }
 
 
@@ -17,16 +22,15 @@ body{
 }
 
 .leftside{
-  min-width: 50%;
-  max-width: 50%;
-  padding:20px 10vh;
+  max-width: 40vw;
+  padding:20px 5vw;
   align-content: center;
   justify-content: center;
 
 }
 .rightside{
-  min-width: 50%;
-  padding:20px 1vh 20px 1vh;
+  min-width: 40vw;
+  padding:20px 1vw 20px 1vw;
   align-content: center;
   justify-content: center;
 
@@ -141,6 +145,10 @@ body{
 
  @media  screen and (max-width:768px) {
 
+  html{
+    height: auto;
+  }
+
   .main{
     flex-direction: column;
     text-align: start;
@@ -157,8 +165,12 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    min-width: 90vw;
+    max-width: 100vw;
      padding: 20px 5vh;
+   }
+
+   .rightside{
+     max-width: 100vw;
    }
 
 

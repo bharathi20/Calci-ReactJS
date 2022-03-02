@@ -90,14 +90,14 @@ export default function App() {
     <div className='main'>
       <div className='leftside'>
         <div className='heading'>
-          <div className="h11">Hi, I'm</div>
-          <Typewriter
+          <div className="h11">Hi, I'm Bharathi, Web developer</div>
+          {/* <Typewriter
           options={{
           strings:  ['Bharathi',' Web Developer'],
           autoStart: true,
           loop: true,
           }}
-          />
+          /> */}
         
 
         </div>
