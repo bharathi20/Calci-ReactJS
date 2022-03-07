@@ -9,12 +9,7 @@ export default function App() {
   let [time,settime]        =  useState(null)
 
   // useEffect(()=>{},[value,time])
-  // var toptext = new Typewriter('#typewriter', {
-  //   strings: ['Hello', 'World'],
-  //   autoStart: true,
-  // });
-  // console.log(toptext)
-
+  
   function init(event)
   {
     const { target }  =   event;
@@ -90,14 +85,14 @@ export default function App() {
     <div className='main'>
       <div className='leftside'>
         <div className='heading'>
-          <div className="h11">Hi, I'm Bharathi, Web developer</div>
-          {/* <Typewriter
+          <div className="introText">Hi, I'm </div>
+          <Typewriter
           options={{
           strings:  ['Bharathi',' Web Developer'],
           autoStart: true,
           loop: true,
           }}
-          /> */}
+          />
         
 
         </div>
