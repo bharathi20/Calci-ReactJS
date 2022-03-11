@@ -17,6 +17,7 @@ html{
 .main{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .leftside{
@@ -50,13 +51,14 @@ html{
 }
 
 .content{
-  font-size:20px;
+  font-size:40px;
   color: rgb(7, 7, 7);
 }
 
 .tech{
   color: rgb(216, 213, 219);
   font-weight: 500;
+  font-size: 40px;
   margin-top: 20px;
 }
 
